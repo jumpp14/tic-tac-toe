@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/aterrien/jQuery-Knob/755309e9/js/jquery.knob.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+    <div class="chooseColor"> 
+      <p class="chooseColorHeader">Choose</p>
+      <div class="twoModes">
+        <div class="whiteCell"></div>   
+        <div class="blackCell"></div>
+      </div>
+    </div>
+    <div class="chooseDifficulty"> 
+      <p class="chooseDifficultyHeader">Difficulty</p>
+      <div class="chooseDifficultyDial">
+        <input type="text" class="dial" value="50" data-min="0" data-max="100">
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
