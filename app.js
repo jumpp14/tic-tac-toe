@@ -187,4 +187,4 @@ $(".dial").knob({
      alert("Please select colour");
   }
       }
-  });
+});
